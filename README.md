@@ -1,11 +1,11 @@
-##Prompt:
+## Prompt:
 Make a python script that uses opencv to iterate over a video file and save every frame in a folder with the same name as the video file's name.
 
 
-##Model: Redmond Hermes 4 bit GPTQ
-###Inference Speed 1x P40: 1.48 Tokens/second
-###Ram Usage: 9516MiB
-##output code:
+## Model: Redmond Hermes 4 bit GPTQ
+### Inference Speed 1x P40: 1.48 Tokens/second
+### Ram Usage: 9516MiB
+## output code:
 ```Python
 import cv2
 # Open the input video file
@@ -41,10 +41,10 @@ cap.release()
 print("Frames have been saved successfully.")
 ```
 
-##Model: WizardCoder 4 bit GPTQ
-###Inference Speed 1x P40: 5.54 Tokens/second
-###Ram Usage: 9200MiB
-##output code:
+## Model: WizardCoder 4 bit GPTQ
+### Inference Speed 1x P40: 5.54 Tokens/second
+### Ram Usage: 9200MiB
+## output code:
 ```Python
 import cv2 
 from os import path 
@@ -81,10 +81,10 @@ for root, dirs, files in sorted(os.walk(videos_path)):
 print("All Videos Processed")  
 '''
 
-##Model: WizardCoder 4 bit GPTQ
-###Inference Speed 1x P40: 10.82 Tokens/second
-###Ram Usage: 9500MiB
-##output code:
+## Model: WizardCoder 4 bit GPTQ
+### Inference Speed 1x P40: 10.82 Tokens/second
+### Ram Usage: 9500MiB
+## output code:
 ```Python
 import cv2
 import os
@@ -109,9 +109,9 @@ if __name__ == '__main__':
     main()
 '''
 
-##Model: ChatGPT 3.5 Turbo 0613
-###Inference Speed: Unable to measure easily, but very quick. Probably 25+ tokens/second
-##output code:
+## Model: ChatGPT 3.5 Turbo 0613
+### Inference Speed: Unable to measure easily, but very quick. Probably 25+ tokens/second
+## output code:
 ```Python
 import cv2
 import os
@@ -159,9 +159,9 @@ output_dir = "path/to/output/folder"
 save_frames(video_path, output_dir)
 ```
 
-##Model: ChatGPT 4 0613
-###Inference Speed: Unable to measure easily, but quite reasonable, probably around 10 tokens/second
-##output code:
+## Model: ChatGPT 4 0613
+### Inference Speed: Unable to measure easily, but quite reasonable, probably around 10 tokens/second
+## output code:
 ```Python
 import cv2
 import os

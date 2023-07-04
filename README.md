@@ -40,7 +40,7 @@ cap.release()
 print("Frames have been saved successfully.")
 ```
 
-# Model: WizardCoder 4 bit GPTQ
+# Model: StarCoderPlus 4 bit GPTQ
 ### Inference Speed 1x P40: 5.54 Tokens/second
 ### Ram Usage: 9200MiB
 ```Python
